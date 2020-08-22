@@ -14,7 +14,7 @@ async def on_ready():
           f'Connected to {str(len(bot.guilds))} servers |'
           f'Connected to {str(len(set(bot.get_all_members())))} users')
     print('--------')
-    print('CREATED AND HOSTED BY INVADER OP | Fixed Version')
+    print('Made by FreeZing | Fixed Version')
 
 
 @bot.event
@@ -58,4 +58,4 @@ async def send(ctx, *, content: str):
             await ctx.send("DM can't send to : {} :x: ".format(member))
 
 
-bot.run("YOUR BOT'S TOKEN HERE")
+bot.run("NzQ2NTQ4NzM2MzMwNTYzNjk2.X0B7sA.eq3Yhsv5tHhNALyYeudA1wtTg4w")
